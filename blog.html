@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Mon Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .post {
+            border-bottom: 1px solid #ccc;
+            padding: 1rem 0;
+        }
+        .post:last-child {
+            border-bottom: none;
+        }
+        .post h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        .meta {
+            color: #777;
+            font-size: 0.9rem;
+        }
+        .read-more {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .read-more:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mon Blog</h1>
+    </header>
+    <div class="container">
+        <div class="post">
+            <h2>Titre de l'article 1</h2>
+            <p class="meta">Publié par <strong>Jean Dupont</strong> le 29 avril 2025</p>
+            <p>Ceci est un extrait du contenu de l'article. Il donne un aperçu de ce que l'on peut lire...</p>
+            <a href="#" class="read-more">Lire la suite</a>
+        </div>
+        <div class="post">
+            <h2>Titre de l'article 2</h2>
+            <p class="meta">Publié par <strong>Claire Martin</strong> le 28 avril 2025</p>
+            <p>Un autre article intéressant. Voici quelques lignes pour inciter à la lecture...</p>
+            <a href="#" class="read-more">Lire la suite</a>
+        </div>
+        <!-- Ajouter d'autres articles ici -->
+    </div>
+</body>
+</html>
